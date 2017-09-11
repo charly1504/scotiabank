@@ -1,0 +1,126 @@
+body{
+    background-color: #e2e2e2;
+}
+/*Actualización de estilo para el efecto de load del index*/
+.spinner7{
+	position: relative !important;
+    margin: auto !important;
+    left: auto !important;
+    width: 250px !important;
+    height: 70px !important;
+    padding-top: 70px;
+    background-image: url("../img/scotiabank-logo-blanco.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+/*Color rojo institucional rojo para fondos*/
+.bg-c-institucional{
+	background-color: #d81e05 !important;
+}
+.bg-c-blanco{
+    background-color: #ffffff;
+}
+.color-rojo{
+    color: #ff0000;
+}
+.color-amarillo{
+    color: #fbba00;
+}
+.color-celeste{
+    color: #3399cc;
+}
+.color-morado{
+    color: #9373b1;
+}
+.color-verde{
+    color: #666600;
+}
+.color-rosa{
+    color: #cc0066;
+}
+.color-blanco{
+    color: #ffffff;
+}
+.color-negro{
+    color: #666666;
+}
+/*Color blanco para enlaces del menu*/
+.navbar-light .navbar-nav .nav-link{
+	color: #fff;
+}
+.centrar-contenido{
+    margin: 0 auto;
+}
+.btn-outline-withe{
+    color: #fff;
+    background-color: transparent;
+    border-color: #fff;
+}
+.btn-outline-withe:hover {
+    color: #d81e05;
+    background-color: #fff;
+    border-color: #fff;
+}
+.alto-c-index{
+    min-height: 430px;
+}
+.padding-top-bottom-boot{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.no-padding-lr{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.bg-c-hover{
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #d81e05;
+    opacity: 0.8;
+    z-index: 1071;
+}
+.bg-i-cpymes{
+    background-color: #ffffff;
+    background-image: url("../img/credito-pymes.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: -70px;
+}
+.bg-i-tcomunitario{
+    background-color: #ffffff;
+    background-image: url("../img/trabajo-comunitario.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: 0px;
+}
+.bg-i-tscotiabank{
+    background-color: #ffffff;
+    background-image: url("../img/tarjetas-scotiabank.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: 150px;
+}
+.bg-i-eimportantes{
+    background-color: #ffffff;
+    background-image: url("../img/enlaces-importantes.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 0px;
+}
+.bg-i-tdispositivos{
+    background-color: #ffffff;
+    background-image: url("../img/todos-dispositivos.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 0px;
+}
+.texto-comunitario{
+    line-height: 0.8;
+    font-size: 3.5rem;
+}
+#map{
+    width: 100%;
+    height: 300px;
+}
