@@ -5,13 +5,13 @@
 	<script src="assets/js/bootstrap.min.js"></script>
 	<script src="assets/js/fakeLoader.min.js"></script>
 	<script type="text/javascript">
-		// //Efecto load para la página de inicio
-		// $("#fakeLoader").fakeLoader({
-		// 	timeToHide:3000,    //Tiempo en milisegundos para el disparador de fakeLoader
-		// 	zIndex:"9999",      //zIndex por defecto
-		// 	spinner:"spinner7", //Opciones: 'spinner1', 'spinner2', 'spinner3', 'spinner4', 'spinner5', 'spinner6', 'spinner7'
-		// 	bgColor:"#d81e05"   //Colores ya sea en Hex, RGB or RGBA
-		// });
+		//Efecto load para la página de inicio
+		$("#fakeLoader").fakeLoader({
+			timeToHide:3000,    //Tiempo en milisegundos para el disparador de fakeLoader
+			zIndex:"9999",      //zIndex por defecto
+			spinner:"spinner7", //Opciones: 'spinner1', 'spinner2', 'spinner3', 'spinner4', 'spinner5', 'spinner6', 'spinner7'
+			bgColor:"#d81e05"   //Colores ya sea en Hex, RGB or RGBA
+		});
 		
 		// //Efecto hover para cuadriculas del indez
 		// $(".beneficios").hover(function(){
