@@ -31,7 +31,7 @@
 		<div class="row">
 			<div class="text-center">
 				<div class="menutop menutop-active">
-					<a href="#" title="Banca Persona">Banca Persona</a>
+					<a href="https://scotiabank.herokuapp.com/" title="Banca Persona">Banca Persona</a>
 				</div>
 				<div class="menutop">
 					<a href="#" title="Banca Corporativa">Banca Corporativa</a>
@@ -46,7 +46,7 @@
 					<a href="#" title="Acerca de Scotiabank">Acerca de Scotiabank</a>
 				</div>
 				<div class="menutop-s">
-					<a href="#" title="Registrate Scotiabank"><i class="fa fa-user" aria-hidden="true"></i> REGISTRAR</a>
+					<a href="registro.php" title="Registrate Scotiabank"><i class="fa fa-user" aria-hidden="true"></i> REGISTRAR</a>
 				</div>
 			</div>
 		</div>
@@ -56,7 +56,7 @@
 	<div class="container-fluid padding-top-bottom-boot bg-c-blanco">
 		<div class="row">
 			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
-				<a href="" title="Banco Scotiabank"><img src="assets/img/new-logo-scotiabank-lrg.png" alt="Banco Scotiabank"></a>
+				<a href="https://scotiabank.herokuapp.com/" title="Banco Scotiabank"><img src="assets/img/new-logo-scotiabank-lrg.png" alt="Banco Scotiabank"></a>
 			</div>
 		</div>
 	</div>

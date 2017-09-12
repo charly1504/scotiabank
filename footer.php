@@ -38,6 +38,26 @@
 					</a>
 				</div>
 			</div>
+			<div class="row">
+				<div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+				<h5 class="color-rojo"><b>Aviso Legal</b></h5>
+				</div>
+				<div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+				<h5 class="color-rojo"><b>Privacidad</b></h5>
+				</div>
+				<div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+				<h5 class="color-rojo"><b>Tasas y Comisiones</b></h5>
+				</div>
+				<div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+				<h5 class="color-rojo"><b>Modelos de Escrituras</b></h5>
+				</div>
+				<div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+				<h5 class="color-rojo"><b>Seguridad Online</b></h5>
+				</div>
+				<div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+				<h5 class="color-rojo"><b>FACTA</b></h5>
+				</div>
+			</div>
 		</div>
 	</footer>
 	<div class="footer-s-negro text-center">
