@@ -1,7 +1,4 @@
-# scotiabank
-echo "# scotiabank" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git remote add origin https://github.com/charly1504/scotiabank.git
-git push -u origin master
+Esta página es una modelo de como seria la nueva
+así que solamente es con fines ilustrativos, la
+estoy desarrolladon en un concurso para optar por
+la plaza de desarrollador web.

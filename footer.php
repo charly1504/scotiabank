@@ -13,14 +13,14 @@
 			bgColor:"#d81e05"   //Colores ya sea en Hex, RGB or RGBA
 		});
 		
-		// //Efecto hover para cuadriculas del indez
-		// $(".beneficios").hover(function(){
-		// 	$(".bg-c-hover").css('display', 'block');
-		// 	$(".cin").css('visibility', 'hidden');
-		// }, function(){
-		// 	$(".bg-c-hover").css('display', 'none');
-		// 	$(".cin").css('visibility', 'visible');
-		// });
+		//Efecto hover para cuadriculas del indez
+		$(".beneficios").hover(function(){
+			$(".bg-c-hover").css('display', 'block');
+			$(".cin").css('visibility', 'hidden');
+		}, function(){
+			$(".bg-c-hover").css('display', 'none');
+			$(".cin").css('visibility', 'visible');
+		});
 	</script>
 	
 	<!--Script para mapa-->
