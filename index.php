@@ -1,4 +1,59 @@
 <?php include "header.php"; ?>
+<div class="carousel fade-carousel slide" data-ride="carousel" data-interval="4000" id="bs-carousel">
+	<!-- Overlay -->
+	<!--div class="overlay"></div-->
+
+	<!-- Indicators -->
+	<ol class="carousel-indicators">
+		<li data-target="#bs-carousel" data-slide-to="0" class="active"></li>
+		<li data-target="#bs-carousel" data-slide-to="1"></li>
+		<li data-target="#bs-carousel" data-slide-to="2"></li>
+	</ol>
+
+	<!-- Wrapper for slides -->
+	<div class="carousel-inner">
+		<div class="item slides active">
+			<div class="slide-1"></div>
+			<div class="hero">
+				<hgroup>
+					<h1><span class="color-rojo">Decídete</span></h1>        
+					<h1><span class="color-amarillo">a</span> <span class="color-morado">hacerlo</span></h1>
+					<p class="color-blanco">Si siempre quisistebr <br> recibir más tus tarjetas</p>
+					<span class="color-rojo"><b>¡Hoy es cuando!</b></span>
+				</hgroup>
+				<button class="btn btn-hero btn-lg" role="button">Más información</button>
+			</div>
+		</div>
+
+		<div class="item slides">
+			<div class="slide-2"></div>
+			<div class="hero">        
+				<hgroup>
+					<h1><span class="color-rojo">Decídete</span></h1>        
+					<h1><span class="color-amarillo">a</span> <span class="color-celeste">tener</span> <span class="color-morado">más</span></h1>
+					<p class="color-negro">Si siempre quisiste tener tus ahorros <br> en buenas manos,</p>
+					<span class="color-rojo"><b>tenemos la cuenta para tí</b></span>
+				</hgroup>       
+				<button class="btn btn-hero btn-lg" role="button">Más información</button>
+			</div>
+		</div>
+
+		<div class="item slides">
+			<div class="slide-3"></div>
+			<div class="hero">        
+				<hgroup>
+					<h1><span class="color-celeste">Decídete</span></h1>        
+					<h1><span class="color-morado">a</span> <span class="color-amarillo">crecer</span></h1>
+					<p class="color-blanco">Solicita un Crédito PYME <br> y cuéntanos hasta donde quieres llegar.</p>
+					<span class="color-rojo"><b>Tu decides, nosotros te asesoramos</b></span>
+				</hgroup>
+				<button class="btn btn-hero btn-lg" role="button">Más información</button>
+			</div>
+		</div>
+	</div> 
+</div>
+<!--/Carousel-->
+
 <div class="container bg-c-blanco">
 	<div class="row">
 		<!--cuadro 1-->

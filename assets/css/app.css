@@ -2,6 +2,9 @@
 body{
     background-color: #e2e2e2;
 }
+a{
+    outline: none !important;
+}
 /*Actualización de estilo para el efecto de load del index*/
 .spinner7{
 	position: relative !important;
@@ -121,6 +124,29 @@ ul.enlacei li a{
 .texto-comunitario{
     line-height: 0.8;
     font-size: 3.5rem;
+}
+.footer-s-negro{
+    background-color: #5d5d5d;
+    padding: 10px;
+    color: #ffffff;
+    font-weight: bold;
+}
+footer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+footer ul{
+    list-style: none;
+    padding-left: 0px;
+    line-height: 2;
+    font-weight: bold;
+}
+footer ul li:hover{
+    border-top: 1px solid #d81e05;
+    border-bottom: 1px solid #d81e05;
+}
+.icons{
+    font-size: 45px !important;
 }
 #map{
     width: 100%;
