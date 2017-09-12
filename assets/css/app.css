@@ -14,6 +14,11 @@ body{
     background-size: contain;
     background-repeat: no-repeat;
 }
+ul.enlacei li a{
+    text-orientation: none;
+    color: #ffffff;
+    font-size: 16px;
+}
 /*Color rojo institucional rojo para fondos*/
 .bg-c-institucional{
 	background-color: #d81e05 !important;
@@ -22,32 +27,28 @@ body{
     background-color: #ffffff;
 }
 .color-rojo{
-    color: #ff0000;
+    color: #ff0000 !important;
 }
 .color-amarillo{
-    color: #fbba00;
+    color: #fbba00 !important;
 }
 .color-celeste{
-    color: #3399cc;
+    color: #3399cc !important;
 }
 .color-morado{
-    color: #9373b1;
+    color: #9373b1 !important;
 }
 .color-verde{
-    color: #666600;
+    color: #666600 !important;
 }
 .color-rosa{
-    color: #cc0066;
+    color: #cc0066 !important;
 }
 .color-blanco{
-    color: #ffffff;
+    color: #ffffff !important;
 }
 .color-negro{
-    color: #666666;
-}
-/*Color blanco para enlaces del menu*/
-.navbar-light .navbar-nav .nav-link{
-	color: #fff;
+    color: #666666 !important;
 }
 .centrar-contenido{
     margin: 0 auto;
@@ -124,4 +125,9 @@ body{
 #map{
     width: 100%;
     height: 300px;
+}
+@media (max-width: 991px) {
+    .bg-i-cpymes{
+        background-position-x: 0px;
+    }
 }

@@ -1,7 +1,6 @@
 	<!--JQuery,Bootstrap JS's,FackeLoader,App JS-->
 	<script src="assets/js/jquery-3.2.1.min.js"></script>
 	<script src="assets/js/jquery-1.11.1.min.js"></script><!--solo para el index,remover de los demas footers-->
-	<script src="assets/js/popper.min.js"></script>
 	<script src="assets/js/bootstrap.min.js"></script>
 	<script src="assets/js/fakeLoader.min.js"></script>
 	<script type="text/javascript">
@@ -14,13 +13,19 @@
 		});
 		
 		//Efecto hover para cuadriculas del indez
-		$(".beneficios").hover(function(){
-			$(".bg-c-hover").css('display', 'block');
-			$(".cin").css('visibility', 'hidden');
-		}, function(){
-			$(".bg-c-hover").css('display', 'none');
-			$(".cin").css('visibility', 'visible');
-		});
+		$(".beneficio1").hover(function(){ hoverEfect(".beneficio1"); }, function(){ outEfect(".beneficio1"); });
+		$(".beneficio2").hover(function(){ hoverEfect(".beneficio2"); }, function(){ outEfect(".beneficio2"); });
+		$(".beneficio3").hover(function(){ hoverEfect(".beneficio3"); }, function(){ outEfect(".beneficio3"); });
+		$(".beneficio4").hover(function(){ hoverEfect(".beneficio4"); }, function(){ outEfect(".beneficio4"); });
+		$(".beneficio5").hover(function(){ hoverEfect(".beneficio5"); }, function(){ outEfect(".beneficio5"); });
+		function hoverEfect(id){
+			$(""+id+" .bg-c-hover").css('display', 'block');
+			$(""+id+" .cin").css('visibility', 'hidden');
+		}
+		function outEfect(id){
+			$(""+id+" .bg-c-hover").css('display', 'none');
+			$(""+id+" .cin").css('visibility', 'visible');
+		}
 	</script>
 	
 	<!--Script para mapa-->
