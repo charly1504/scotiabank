@@ -75,7 +75,7 @@
 		<div class="collapse navbar-collapse js-navbar-collapse no-padding-boots">
 			<ul class="nav navbar-nav">
 				<li class="dropdown dropdown-large">
-					<a href="" class="dropdown-toggle" data-toggle="dropdown">Cuentas y Plasnes de Ahorro <b class="caret"></b></a>
+					<a href="" class="dropdown-toggle" data-toggle="dropdown">Cuentas y Planes de Ahorro <b class="caret"></b></a>
 					<ul class="dropdown-menu dropdown-menu-large row">
 						<li class="col-sm-6">
 							<ul>
