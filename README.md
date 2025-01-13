@@ -20,9 +20,12 @@ php -v
 
 4- Project Directory: Place your project in the server's default directory:
 
-XAMPP: htdocs (C:\xampp\htdocs)
-WAMP: www (C:\wamp\www)
+- XAMPP: htdocs (C:\xampp\htdocs)
+- WAMP: www (C:\wamp\www)
+
+```
 Access it via http://localhost/<project_name>.
+```
 
 5- Composer (if needed): If your project depends on modern PHP libraries, install Composer:
 
